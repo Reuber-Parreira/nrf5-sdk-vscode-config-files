@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:NRF5_SDK}/**",
+                "/opt/gnuarmemb/arm-none-eabi/include"
+            ],
+            "defines": [
+                "BOARD_PCA10040",
+                "NRF52",
+                "NRF52832_XXAA",
+                "S132",
+                "SOFTDEVICE_PRESENT",
+                "SWI_DISABLE0",
+                "\"_DEBUG\"",
+                "\"UNICODE\"",
+                "\"_UNICODE\""
+            ],
+            "compilerPath": "/opt/gnuarmemb/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "nrf-connect"
+        }
+    ],
+    "version": 4
+}
